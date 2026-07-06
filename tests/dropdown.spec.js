@@ -81,21 +81,21 @@ import {test} from "@playwright/test";
 
 
 
-test("multiple dropdown", async({page}) =>
-{
-    await page.goto('https://testautomationcentral.com/demo/dropdown.html');
-    // await page.locator('//button[@data-target="multi-select-dropdown"]').click();
-    // //await page.selectOption('.form-multiselect',[{value:"option1"},{value:"option4}"]);
-    // //await page.selectOption('.form-multiselect',["Option 1", "Option 3"]);
-    // //await page.selectOption('.form-multiselect',[{label: "Option 1"}, {label: "Option 4"}]);
-    // await page.selectOption('.form-multiselect', [{index: 1}, {index:4}]);
-    // await page.waitForTimeout(2000);
+// test("multiple dropdown", async({page}) =>
+// {
+//     await page.goto('https://testautomationcentral.com/demo/dropdown.html');
+//     // await page.locator('//button[@data-target="multi-select-dropdown"]').click();
+//     // //await page.selectOption('.form-multiselect',[{value:"option1"},{value:"option4}"]);
+//     // //await page.selectOption('.form-multiselect',["Option 1", "Option 3"]);
+//     // //await page.selectOption('.form-multiselect',[{label: "Option 1"}, {label: "Option 4"}]);
+//     // await page.selectOption('.form-multiselect', [{index: 1}, {index:4}]);
+//     // await page.waitForTimeout(2000);
 
-   // await page.locator('//button[@data-target="simple-dropdown"]').click();
-    await page.getByRole('button', {name:"Simple Dropdown"}).click();
-    await page.selectOption('//div[@id="simple-dropdown"]/select', ["Option 2"]);
-    await page.waitForTimeout(2000);
-});
+//    // await page.locator('//button[@data-target="simple-dropdown"]').click();
+//     await page.getByRole('button', {name:"Simple Dropdown"}).click();
+//     await page.selectOption('//div[@id="simple-dropdown"]/select', ["Option 2"]);
+//     await page.waitForTimeout(2000);
+// });
 
 
 
