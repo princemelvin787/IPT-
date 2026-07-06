@@ -94,8 +94,8 @@ import {test} from "@playwright/test";
 //    // await page.locator('//button[@data-target="simple-dropdown"]').click();
 //     await page.getByRole('button', {name:"Simple Dropdown"}).click();
 //     await page.selectOption('//div[@id="simple-dropdown"]/select', ["Option 2"]);
-//     await page.waitForTimeout(2000);
-// });
+     await page.waitForTimeout(2000);
+ });
 
 
 
